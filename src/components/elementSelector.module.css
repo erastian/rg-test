@@ -1,0 +1,135 @@
+.elementSelector {
+    display: flex;
+    background-color: #373737;
+    color: #fff;
+    padding: 0 1.25rem 1.25rem;
+    flex-direction: column;
+    max-width: 29.625rem;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: .938rem;
+
+    .title {
+        margin-top: 1.25rem;
+        font-weight: 400;
+        font-size: .875rem;
+        line-height: 1.313rem;
+    }
+
+    .closeButton {
+        background-color: transparent;
+        border: none;
+        color: #fff;
+        font-weight: 400;
+        font-size: .625rem;
+        line-height: .938rem;
+        margin-top: .5rem;
+        cursor: pointer;
+    }
+}
+
+.filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1.438rem;
+
+    .search {
+        font-size: .875rem;
+        color: #fff;
+        font-weight: 400;
+
+        input {
+            background-color: #fff;
+            color: #373737;
+            height: 1.25rem;
+            max-width: 9.375rem;
+            padding: 0 .5rem;
+        }
+    }
+
+    .itemsFilter {
+        font-size: .875rem;
+        color: #fff;
+        font-weight: 400;
+
+        select {
+            min-width: 9.375rem;
+            background-color: #fff;
+            color: #373737;
+            padding: 0 .375rem;
+        }
+    }
+
+
+}
+
+.elementsList {
+    height: 16.625rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #141414;
+    margin-bottom: 1.313rem;
+
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+
+
+        li {
+
+            cursor: pointer;
+
+            &:hover {
+                background-color: #373737;
+            }
+
+            label {
+                padding: .5rem 1.625rem;
+                color: #fff;
+                font-weight: 400;
+                font-size: .75rem;
+                line-height: .879rem;
+                display: flex;
+                flex-direction: row;
+                gap: 1rem;
+                width: 100%;
+                cursor: inherit;
+
+                &.disabled {
+                    color: #a6a6a6 !important;
+                }
+            }
+        }
+    }
+}
+
+.selectedItemsList {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .938rem;
+
+    p {
+        color: #fff;
+        font-weight: 400;
+        font-size: .875rem;
+        margin-bottom: .563rem;
+    }
+
+    .selectedItems {
+        display: flex;
+        flex-direction: row;
+        gap: .625rem;
+    }
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    gap: .625rem;
+}

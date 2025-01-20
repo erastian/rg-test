@@ -1,0 +1,15 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: start;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 1rem;
+
+    .selectedItems {
+        display: flex;
+        flex-direction: row;
+        gap: .625rem
+    }
+}

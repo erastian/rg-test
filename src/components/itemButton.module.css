@@ -1,0 +1,27 @@
+.itemButton {
+    background-color: #121212;
+    color: #fff;
+    padding: .375rem;
+    border: none;
+    width: 8.875rem;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+
+    .text {
+        font-size: .875rem;
+        font-weight: 400;
+        flex: 1 0 85%;
+    }
+
+    .close {
+        font-size: .875rem;
+        font-weight: 300;
+        color: #fff;
+        cursor: pointer;
+        flex: 0 0 14%;
+        border-left: 1px solid #969696;
+        padding: 0 .5rem;
+        line-height: 1.125rem;
+    }
+}

@@ -1,0 +1,43 @@
+.button {
+    /*font-family: "Roboto", serif;*/
+    width: fit-content;
+    font-size: .845rem;
+    font-weight: 400;
+    line-height: 1.026rem;
+    color: #fff;
+    padding: .438rem 1.5rem;
+    border: 0;
+
+    &:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+
+    &:active {
+        opacity: 0.6;
+    }
+
+    &.success {
+        background-color: #519F03;
+
+        &:hover {
+            background-color: #519F03;
+        }
+
+        &:active {
+            background-color: #519F03;
+        }
+    }
+
+    &.cancel {
+        background-color: #9F2903;
+
+        &:hover {
+            background-color: #9F2903;
+        }
+
+        &:active {
+            background-color: #9F2903;
+        }
+    }
+}
